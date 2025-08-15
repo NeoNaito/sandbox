@@ -22,7 +22,7 @@ const publicKey = {
 };
 // navigator.credentials.createでパスキー生成
 let credential = await navigator.credentials.create({ publicKey });
-console.log('Credential Created:', credential);
+console.log('Credential Created:', JSON.stringify(credential));
 
 
 
@@ -36,4 +36,5 @@ const publicKey = {
   allowCredentials: []
 };
 const credential = await navigator.credentials.get({ publicKey });
-console.log("credential", credential);
+console.log("credential", JSON.stringify(credential));
+
