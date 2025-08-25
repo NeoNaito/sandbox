@@ -1,0 +1,7 @@
+List<PublicKeyCredentialParameters> pubKeyCredParams = new ArrayList<>();
+String algorithms = "-7,-257,-8";
+for (String alg : algorithms.split(",")) {
+    int algInt = Integer.parseInt(alg);
+    COSEAlgorithmIdentifier coseAlg = COSEAlgorithmIdentifier.create(algInt);
+    pubKeyCredParams.add(new PublicKeyCredentialParameters(PublicKeyCredentialType.PUBLIC_KEY, coseAlg));
+}
