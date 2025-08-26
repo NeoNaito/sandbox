@@ -31,12 +31,12 @@
 
 ## 01-019 署名検証失敗
 #### 登録時
-###### challenge：
-###### publicKeyCredential：
+###### challenge：VoRhFrfGRPmVyLvlOSdXYg
+###### publicKeyCredential：{"authenticatorAttachment":"platform","clientExtensionResults":{},"id":"hRcBXc-8oACZ4AkINNDcdX_6I2ZOB9uwfbokSKvvepA","rawId":"hRcBXc-8oACZ4AkINNDcdX_6I2ZOB9uwfbokSKvvepA","response":{"attestationObject":"o2NmbXRkbm9uZWdhdHRTdG10oGhhdXRoRGF0YVikSZYN5YgOjGh0NBcPZHZgW4_krrmihjLHmVzzuoMdl2NFAAAAAAAAAAAAAAAAAAAAAAAAAAAAIIUXAV3PvKAAmeAJCDTQ3HV_-iNmTgfbsH26JEir73qQpQECAyYgASFYIE3v-AHZMdCNU82FUiNOtToPtPI3t5u2iTcZyCs3oefwIlggs0HL74KCkmdYjyVO_jcIRy-kreER3R52RZ7aWlMFHoE","authenticatorData":"SZYN5YgOjGh0NBcPZHZgW4_krrmihjLHmVzzuoMdl2NFAAAAAAAAAAAAAAAAAAAAAAAAAAAAIIUXAV3PvKAAmeAJCDTQ3HV_-iNmTgfbsH26JEir73qQpQECAyYgASFYIE3v-AHZMdCNU82FUiNOtToPtPI3t5u2iTcZyCs3oefwIlggs0HL74KCkmdYjyVO_jcIRy-kreER3R52RZ7aWlMFHoE","clientDataJSON":"eyJ0eXBlIjoid2ViYXV0aG4uY3JlYXRlIiwiY2hhbGxlbmdlIjoiVm9SaEZyZkdSUG1WeUx2bE9TZFhZZyIsIm9yaWdpbiI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODA4MCIsImNyb3NzT3JpZ2luIjpmYWxzZSwib3RoZXJfa2V5c19jYW5fYmVfYWRkZWRfaGVyZSI6ImRvIG5vdCBjb21wYXJlIGNsaWVudERhdGFKU09OIGFnYWluc3QgYSB0ZW1wbGF0ZS4gU2VlIGh0dHBzOi8vZ29vLmdsL3lhYlBleCJ9","publicKey":"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAETe_4Adkx0I1TzYVSI061Og-08je3m7aJNxnIKzeh5_CzQcvvgoKSZ1iPJU7-NwhHL6St4RHdHnZFntpaUwUegQ","publicKeyAlgorithm":-7,"transports":["internal"]},"type":"public-key"}
 ---
 #### 認証時
-###### challenge：
-###### publicKeyCredential：
+###### challenge：p1KonasaS3yXxkDWJxIUjA
+###### publicKeyCredential：{"authenticatorAttachment":"platform","clientExtensionResults":{},"id":"hRcBXc-8oACZ4AkINNDcdX_6I2ZOB9uwfbokSKvvepA","rawId":"hRcBXc-8oACZ4AkINNDcdX_6I2ZOB9uwfbokSKvvepA","response":{"authenticatorData":"SZYN5YgOjGh0NBcPZHZgW4_krrmihjLHmVzzuoMdl2MFAAAAAQ","clientDataJSON":"eyJ0eXBlIjoid2ViYXV0aG4uZ2V0IiwiY2hhbGxlbmdlIjoicDFLb25hc2FTM3lYeGtEV0p4SVVqQSIsIm9yaWdpbiI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODA4MCIsImNyb3NzT3JpZ2luIjpmYWxzZX0","signature":"AgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg","userHandle":"AQIDBA"},"type":"public-key"}
 
 ## 01-020 UPが0
 #### 登録時
